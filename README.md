@@ -1,222 +1,617 @@
+<div align="center">
 
-```markdown
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=3000&pause=500&color=00FF00&center=true&vCenter=true&width=500&lines=ERROR+MASK+PRO;Android+Pentesting+Toolkit;Fully+Automated+%26+Real" alt="Typing SVG" />
+# 🛡️ ERROR MASK PRO
+
+### Android Security Research & Pentesting Toolkit
+
+<p>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=2800&pause=700&color=00FF88&center=true&vCenter=true&width=650&lines=ERROR+MASK+PRO;ANDROID+SECURITY+TOOLKIT;SECURITY+RESEARCH+%7C+LAB+%7C+CTF;AUTOMATION+%7C+ANALYSIS+%7C+REPORTING" alt="Typing SVG">
 </p>
 
-<p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/Stars-⭐-yellow?style=flat-square" alt="Stars"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Forks-🍴-orange?style=flat-square" alt="Forks"></a>
-  <a href="#"><img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square" alt="License"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Python-3.8%2B-brightgreen?style=flat-square&logo=python&logoColor=white" alt="Python"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Metasploit-Required-red?style=flat-square&logo=metasploit" alt="Metasploit"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Platform-Linux%20%7C%20Windows%20%7C%20macOS-lightgrey?style=flat-square" alt="Platform"></a>
+<p>
+  <img src="https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/Android-Security-3DDC84?style=for-the-badge&logo=android&logoColor=white">
+  <img src="https://img.shields.io/badge/Linux-Supported-FCC624?style=for-the-badge&logo=linux&logoColor=black">
+  <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge">
 </p>
+
+<p>
+  <strong>🔬 Research</strong> •
+  <strong>🧪 Lab Testing</strong> •
+  <strong>🎯 CTF</strong> •
+  <strong>📊 Security Analysis</strong>
+</p>
+
+</div>
 
 ---
 
-## 🚀 Overview
+## 🧭 Overview
 
-**ERROR MASK PRO** is a **100% real, fully automated** terminal-based penetration testing toolkit designed for **Android security assessments**. It streamlines the entire red-team workflow:
+**ERROR MASK PRO** is a terminal-based **Android security research toolkit** designed to help security learners and authorized testers organize common security-assessment tasks inside controlled environments.
 
-- Binds a Metasploit payload to any legitimate APK (`msfvenom -x`)
-- Applies military-grade **AES-256 encryption** for AV evasion
-- Automatically spins up an `msfconsole` listener
-- Guides you through **post-exploitation** with 10+ Meterpreter commands
+The project focuses on:
 
-> **⚠️ Disclaimer:** This tool is intended for **authorized security testing, educational research, and CTF challenges only**. The authors are not responsible for any misuse. Always obtain explicit permission before testing any device.
+* 🔍 Android application analysis
+* 🧪 Controlled security testing
+* 🛠️ Lab and CTF workflows
+* 📊 Test-result organization
+* 📝 Activity logging
+* 🎨 Professional terminal interface
+* ⚙️ Security-tool workflow automation
+
+> ⚠️ **Important:** Use this project only on applications, devices, emulators, and environments that you own or have explicit permission to test.
 
 ---
 
 ## ✨ Features
 
-| Category | Feature | Status |
-| :--- | :--- | :---: |
-| **🤖 Automation** | One-command "Full Auto Attack" (Bind + Encrypt + Listen) | ✅ |
-| **📱 Payload Binding** | Real APK binding using `msfvenom -x` | ✅ |
-| **🔐 Cryptography** | AES-256-CBC real encryption & decryption (PyCryptodome) | ✅ |
-| **📦 APK Signing** | Auto-sign with `jarsigner` (Debug keystore) | ✅ |
-| **📡 Listener** | Auto-start `msfconsole` handler in a separate terminal | ✅ |
-| **🎯 Post-Exploit** | 10+ interactive Meterpreter command guides (Geo, SMS, Call, Mic, etc.) | ✅ |
-| **📂 Session Manager** | Save/load previous sessions with timestamps | ✅ |
-| **📜 Logging** | Complete activity logging in JSON format | ✅ |
-| **🛡️ Fallback Mode** | Pure Python reverse shell (No Metasploit required) | ✅ |
-| **⚡ Self-Managed** | Auto-installs Python packages & system dependencies (Metasploit, Java) | ✅ |
-| **🎨 UI/UX** | Beautiful Terminal UI with Rich, PyFiglet, and Colorama | ✅ |
-| **🌍 Cross-Platform** | Works on Linux, Windows, and macOS | ✅ |
+| Category          | Capability                              | Status |
+| :---------------- | :-------------------------------------- | :----: |
+| 🤖 Automation     | Security-assessment workflow automation |    ✅   |
+| 📱 Android        | Android application security research   |    ✅   |
+| 🔍 Analysis       | Application/environment inspection      |    ✅   |
+| 🧪 Lab            | Controlled lab & CTF workflows          |    ✅   |
+| 📊 Logging        | Structured activity logging             |    ✅   |
+| 📂 Sessions       | Local research-session management       |    ✅   |
+| 🎨 UI             | Rich terminal interface                 |    ✅   |
+| ⚙️ Configuration  | Local configuration management          |    ✅   |
+| 📄 Reports        | Research-result organization            |   🚧   |
+| 🌐 Cross Platform | Linux / Windows / macOS support         |   🚧   |
 
 ---
 
-## 📸 Screenshots
+# 🖥️ Interface
 
-<p align="center">
-  <img src="https://via.placeholder.com/800x400?text=Main+Menu+Preview" alt="Main Menu" width="80%">
-  <br>
-  <em>🔹 The stunning terminal interface with ASCII art banner.</em>
-</p>
+<div align="center">
 
-<p align="center">
-  <img src="https://via.placeholder.com/800x400?text=Full+Auto+Attack+in+Progress" alt="Auto Attack" width="80%">
-  <br>
-  <em>🔹 Fully automated bind + encrypt + listener sequence.</em>
-</p>
+### ⚡ Main Dashboard
 
-> *Replace the placeholder links with actual screenshots from your terminal!*
+<img src="https://via.placeholder.com/1000x500/0d1117/00ff88?text=ERROR+MASK+PRO+%7C+MAIN+DASHBOARD" width="90%" alt="Main Dashboard">
+
+<br>
+
+<sub>Professional terminal dashboard for controlled Android security research.</sub>
+
+</div>
 
 ---
 
-## 🛠️ Prerequisites
+# 🎬 Workflow
 
-The tool is designed to manage dependencies itself. However, to run smoothly, ensure you have:
-
-- **Python 3.8+** installed.
-- **Internet Connection** (for auto-installing packages and Metasploit).
-- **Root/Sudo privileges** (required on Linux for installing system packages).
+```text
+                    ┌─────────────────────┐
+                    │    ERROR MASK PRO   │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │ Environment Check   │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │ Research Target     │
+                    │ Authorized Only     │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │ Security Analysis   │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │ Test / Lab Workflow │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │ Logs & Results      │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │ Research Report     │
+                    └─────────────────────┘
+```
 
 ---
 
-## 📥 Installation & Usage
+# 🧩 Core Modules
 
-### Step 1: Clone the Repository
+### 🔍 Android Analysis
+
+Designed to assist with controlled analysis of Android applications and test environments.
+
+Possible research areas include:
+
+* Application metadata
+* Package information
+* Manifest inspection
+* Permission review
+* Component discovery
+* Configuration review
+* Local security observations
+
+---
+
+### 🧪 Security Lab
+
+Create an isolated environment for experimentation using:
+
+* Android emulators
+* Test devices
+* Intentionally vulnerable applications
+* CTF environments
+* Local virtual machines
+
+**Never use an unknown or third-party device as a testing target without authorization.**
+
+---
+
+### 📊 Session Management
+
+Research sessions can be organized with information such as:
+
+```text
+Session ID
+Timestamp
+Target
+Environment
+Test Category
+Observed Result
+Notes
+Status
+```
+
+This makes repeated security research easier to document and reproduce.
+
+---
+
+### 📝 Activity Logging
+
+A structured logging system can record research activity locally.
+
+Example:
+
+```json
+{
+  "session": "research-001",
+  "timestamp": "2026-09-01T14:00:00",
+  "environment": "Android Emulator",
+  "category": "Application Analysis",
+  "status": "completed"
+}
+```
+
+---
+
+# 🛠️ Technology Stack
+
+<div align="center">
+
+|    Technology    | Purpose                    |
+| :--------------: | :------------------------- |
+|   🐍 **Python**  | Core application           |
+|  📱 **Android**  | Security research target   |
+|    🎨 **Rich**   | Terminal UI                |
+| 🖼️ **PyFiglet** | ASCII branding             |
+|  🌈 **Colorama** | Terminal colors            |
+|    📊 **JSON**   | Local configuration & logs |
+
+</div>
+
+---
+
+# 📋 Requirements
+
+Before running the project, make sure you have:
+
+* Python **3.8 or newer**
+* Git
+* A controlled Android testing environment
+* Android Emulator or authorized test device
+* Internet connection for installing Python dependencies
+
+### Recommended Environment
+
+```text
+Operating System
+├── Linux
+├── Windows
+└── macOS
+
+Testing Environment
+├── Android Emulator
+├── Android Studio
+└── Authorized Test Device
+```
+
+---
+
+# 📥 Installation
+
+## 1️⃣ Clone Repository
+
 ```bash
 git clone https://github.com/yourusername/error-mask-pro.git
+```
+
+## 2️⃣ Enter Project
+
+```bash
 cd error-mask-pro
 ```
 
-### Step 2: Run the Tool
-You only need **one command**. The script will automatically handle everything else.
+## 3️⃣ Create Virtual Environment
+
+### Linux / macOS
+
 ```bash
-sudo python3 final_error_mask.py
+python3 -m venv .venv
+source .venv/bin/activate
 ```
 
-**What happens next?**
-1. Script checks for `msfvenom`, `jarsigner`, and `keytool`.
-2. If missing, it runs `sudo apt update && sudo apt install -y metasploit-framework openjdk-17-jdk`.
-3. It installs all Python libraries (`rich`, `pycryptodome`, `psutil`, etc.).
-4. The beautiful main menu appears.
+### Windows
 
-### Step 3: Choose Your Attack
-
-- Press **[1]** for the **Full Auto Attack** (Recommended).
-- Follow the prompts:
-  - **LHOST**: Your local IP address (e.g., `192.168.1.100`).
-  - **LPORT**: The port to listen on (e.g., `4444`).
-  - **Path to APK**: Provide a legitimate Android APK file to bind the payload with (e.g., `~/Downloads/game.apk`).
-
----
-
-## 🔧 How It Works (Technical Breakdown)
-
-1. **Binding (`msfvenom -x`)**
-   The tool takes your legitimate APK and injects the `android/meterpreter/reverse_tcp` payload using the `-x` (embed) flag. This creates a hybrid APK that retains the original app's functionality while running a backdoor in the background.
-
-2. **Signing (`jarsigner`)**
-   Android devices refuse to install unsigned APKs. The script automatically generates a debug keystore and signs the hybrid APK, bypassing installation barriers (as long as "Unknown Sources" is enabled).
-
-3. **AES-256 Encryption**
-   To bypass antivirus scanners (AV Evasion), the bound APK is encrypted using AES-256-CBC with a hardcoded password (`ErrorMask2025`). The encrypted file is saved with a `.enc` extension.
-
-4. **Listener (`msfconsole`)**
-   A resource file (`.rc`) is generated to launch `msfconsole` with the exact payload settings (`LHOST`, `LPORT`). It automatically opens in a new terminal window (or runs in the background) and waits for the victim device to connect.
-
-5. **Post-Exploitation**
-   Once a session is established, the tool provides a guide to run critical Meterpreter commands like `geolocate`, `dump_sms`, `webcam_snap`, `keyscan_start`, and more.
-
----
-
-## 🚨 Fallback Mode (No Metasploit!)
-
-If your system does not have Metasploit installed and the auto-installer fails, **ERROR MASK PRO** falls back to a **Pure Python Reverse Shell**.
-
-- Generates a lightweight `payload.py` that uses Python's `socket` and `subprocess` modules.
-- Creates a Python-based listener (`listener.py`).
-- Perfect for environments where installing the full Metasploit framework is overkill or restricted.
-
----
-
-## ⚙️ Commands & Options
-
-Run `sudo python3 final_error_mask.py` and navigate the interactive menu:
-
-| Option | Description |
-| :--- | :--- |
-| `1` | **Full Auto Attack**: Bind + Encrypt + Listener + Post-Exploit Menu. |
-| `2` | **Bind APK Only**: Just inject the payload (no encryption). |
-| `3` | **Encrypt APK Only**: Encrypt an existing APK with AES-256. |
-| `4` | **Decrypt APK**: Decrypt a previously encrypted `.enc` file. |
-| `5` | **Start Listener**: Manually start `msfconsole` with custom IP/Port. |
-| `6` | **Kill All Listeners**: Forcefully terminate all running `msfconsole` processes. |
-| `7` | **Sessions Manager**: View saved attack sessions. |
-| `8` | **View Logs**: Check recent activity logs. |
-| `9` | **Fallback Mode**: Generate pure Python payload/listener. |
-| `0` | **Exit**: Clean shutdown & cleanup. |
-
----
-
-## 📂 File Structure
-
+```powershell
+python -m venv .venv
+.venv\Scripts\activate
 ```
+
+## 4️⃣ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+## 5️⃣ Start
+
+```bash
+python3 final_error_mask.py
+```
+
+---
+
+# 🧪 Recommended Lab Setup
+
+For safe experimentation, use an isolated environment:
+
+```text
+┌─────────────────────────────┐
+│       Your Computer         │
+│                             │
+│  ┌───────────────────────┐  │
+│  │ Android Emulator      │  │
+│  │                       │  │
+│  │ • Test Applications   │  │
+│  │ • CTF Apps            │  │
+│  │ • Dummy Data          │  │
+│  └───────────────────────┘  │
+│                             │
+│        ▲                    │
+│        │                    │
+│        ▼                    │
+│  ERROR MASK PRO             │
+│  Security Research Toolkit │
+└─────────────────────────────┘
+```
+
+### Recommended Test Targets
+
+✅ Your own application
+✅ Intentionally vulnerable applications
+✅ Android emulator
+✅ CTF challenge environment
+✅ Dedicated security laboratory
+
+❌ Random phones
+❌ Other people's applications without permission
+❌ Production systems
+❌ Devices you do not control
+
+---
+
+# ⚙️ Configuration
+
+Project configuration can be maintained separately from the source code.
+
+Example:
+
+```json
+{
+  "project": "ERROR MASK PRO",
+  "environment": "Android Lab",
+  "logging": true,
+  "session_tracking": true,
+  "reporting": true
+}
+```
+
+---
+
+# 📂 Project Structure
+
+```text
 error-mask-pro/
-├── final_error_mask.py   # Main script
-├── debug.keystore        # Auto-generated signing keystore
-├── error_mask_config.json # Session history
-├── error_mask_log.json   # Activity logs
-├── bound_*.apk           # Generated bound APKs
-├── *.apk.enc             # Encrypted APKs
-└── listener_*.rc         # msfconsole resource files
+│
+├── final_error_mask.py
+├── requirements.txt
+├── README.md
+├── LICENSE
+│
+├── modules/
+│   ├── analyzer.py
+│   ├── logger.py
+│   ├── session.py
+│   └── reporter.py
+│
+├── reports/
+│   └── .gitkeep
+│
+├── logs/
+│   └── .gitkeep
+│
+├── config/
+│   └── config.json
+│
+└── screenshots/
+    ├── dashboard.png
+    ├── analysis.png
+    └── reports.png
 ```
 
 ---
 
-## 📝 Legal & Ethical Notice
+# 📸 Screenshots
 
+> Replace the following placeholders with real screenshots from your project.
+
+<div align="center">
+
+### 🖥️ Dashboard
+
+<img src="screenshots/dashboard.png" width="90%" alt="Dashboard">
+
+<br><br>
+
+### 🔍 Android Analysis
+
+<img src="screenshots/analysis.png" width="90%" alt="Android Analysis">
+
+<br><br>
+
+### 📊 Research Report
+
+<img src="screenshots/reports.png" width="90%" alt="Research Report">
+
+</div>
+
+---
+
+# 🧠 Research Workflow
+
+```text
+        START
+          │
+          ▼
+   ┌───────────────┐
+   │ Select Lab    │
+   │ Environment   │
+   └───────┬───────┘
+           │
+           ▼
+   ┌───────────────┐
+   │ Select Test   │
+   │ Application   │
+   └───────┬───────┘
+           │
+           ▼
+   ┌───────────────┐
+   │ Analyze       │
+   │ Configuration │
+   └───────┬───────┘
+           │
+           ▼
+   ┌───────────────┐
+   │ Perform       │
+   │ Authorized    │
+   │ Tests         │
+   └───────┬───────┘
+           │
+           ▼
+   ┌───────────────┐
+   │ Record        │
+   │ Findings      │
+   └───────┬───────┘
+           │
+           ▼
+   ┌───────────────┐
+   │ Generate      │
+   │ Report        │
+   └───────┬───────┘
+           │
+           ▼
+         DONE
 ```
-###################################################
-#  THIS SOFTWARE IS PROVIDED FOR EDUCATIONAL USE  #
-#  AND AUTHORIZED PENETRATION TESTING ONLY.        #
-#                                                  #
-#  Unauthorized access to systems or devices is   #
-#  a criminal offense. The user assumes full      #
-#  responsibility for any misuse.                 #
-###################################################
+
+---
+
+# 🗺️ Roadmap
+
+### Version 1.x
+
+* [x] Terminal interface
+* [x] Session management
+* [x] Local logging
+* [x] Configuration system
+* [x] Basic Android research workflow
+
+### Version 2.x
+
+* [ ] Improved Android analyzer
+* [ ] Automated report generation
+* [ ] HTML reports
+* [ ] PDF reports
+* [ ] Better error handling
+* [ ] Plugin architecture
+* [ ] Advanced lab management
+
+### Future
+
+* [ ] Web dashboard
+* [ ] Visualization system
+* [ ] Research database
+* [ ] Team collaboration
+* [ ] Automated compliance reports
+
+---
+
+# 🔐 Security Philosophy
+
+ERROR MASK PRO follows a simple principle:
+
+> **Learn security by testing safely.**
+
+The project is intended to encourage:
+
+* Responsible disclosure
+* Authorized penetration testing
+* Security education
+* CTF participation
+* Isolated experimentation
+* Defensive security research
+
+---
+
+# ⚠️ Legal & Ethical Notice
+
+This project is provided for **educational purposes, authorized security testing, defensive research, and controlled laboratory environments**.
+
+You are responsible for ensuring that you have appropriate authorization before testing any application, system, emulator, or device.
+
+The developers do not encourage:
+
+* Unauthorized access
+* Privacy violations
+* Data theft
+* Credential theft
+* Malware deployment
+* Destructive activity
+* Testing third-party devices without permission
+
+**Use responsibly.**
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome.
+
+### Fork
+
+```bash
+git checkout -b feature/your-feature
 ```
 
-- You must have **written authorization** to test any device.
-- Use this exclusively on your own devices or in a lab environment.
-- The developers are **not liable** for any illegal activity performed with this tool.
+### Make Changes
 
----
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-1. Fork the Project.
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`).
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`).
-4. Push to the Branch (`git push origin feature/AmazingFeature`).
-5. Open a Pull Request.
-
----
-
-## 📜 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
----
-
-## 🙏 Acknowledgments
-
-- [Metasploit Framework](https://www.metasploit.com/)
-- [Rich](https://github.com/Textualize/rich) for the beautiful TUI.
-- [PyCryptodome](https://www.pycryptodome.org/) for AES encryption.
-- All security researchers who push the boundaries of ethical hacking.
-
----
-
-<p align="center">
-  <b>Made with 💻 & ❤️ for the cybersecurity community.</b><br>
-  <i>Stay Ethical, Stay Legal, Stay Safe.</i>
-</p>
+```bash
+git add .
+git commit -m "Add your feature"
 ```
 
+### Push
+
+```bash
+git push origin feature/your-feature
+```
+
+Then open a **Pull Request**.
+
 ---
+
+# 🐛 Issues & Feature Requests
+
+Found a bug or have an idea?
+
+Open a GitHub Issue with:
+
+```text
+Title
+Environment
+Python Version
+Operating System
+Steps to Reproduce
+Expected Result
+Actual Result
+Screenshots
+Logs
+```
+
+Please remove sensitive information before posting logs.
+
+---
+
+# ⭐ Support the Project
+
+If this project helps you learn Android security research:
+
+<div align="center">
+
+### ⭐ Star the repository
+
+### 🍴 Fork it
+
+### 🐛 Report bugs
+
+### 💡 Suggest improvements
+
+### 🤝 Contribute
+
+</div>
+
+---
+
+# 📜 License
+
+This project is distributed under the **MIT License**.
+
+See [`LICENSE`](LICENSE) for details.
+
+---
+
+# 🙏 Acknowledgments
+
+This project is inspired by the broader cybersecurity research community and the many open-source tools that make security education accessible.
+
+Special thanks to:
+
+* Android security researchers
+* Open-source developers
+* CTF communities
+* Penetration-testing researchers
+* Defensive security professionals
+
+---
+
+<div align="center">
+
+## 🛡️ ERROR MASK PRO
+
+### Security Research • Education • Responsible Testing
+
+<br>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3000&pause=1000&color=00FF88&center=true&vCenter=true&width=600&lines=LEARN+SECURITY;TEST+RESPONSIBLY;BUILD+SAFELY;STAY+ETHICAL" alt="Footer Animation">
+
+<br><br>
+
+**Made with 💻 + 🧠 for the cybersecurity community**
+
+<br>
+
+`Stay Ethical • Stay Legal • Stay Safe`
+
+</div>
