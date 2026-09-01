@@ -27,7 +27,7 @@
 
 <div align="center">
 
-> **ERROR MASK PRO** is an elite, terminal-based automated penetration testing framework built specifically for **Android security assessments**. Designed to supercharge red-team workflows with surgical precision.
+> **ERROR MASK** is an elite, terminal-based automated penetration testing framework built specifically for **Android security assessments**. Designed to supercharge red-team workflows with surgical precision.
 
 </div>
 
