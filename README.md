@@ -1,250 +1,351 @@
-<div align="center">
+<!-- ========================================================= -->
 
-# 🛡️ ERROR MASK PRO
+<!--                  ERROR MASK PRO                           -->
 
-### Android Security Research & Pentesting Toolkit
+<!--              ULTIMATE README EDITION                     -->
 
-<p>
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=2800&pause=700&color=00FF88&center=true&vCenter=true&width=650&lines=ERROR+MASK+PRO;ANDROID+SECURITY+TOOLKIT;SECURITY+RESEARCH+%7C+LAB+%7C+CTF;AUTOMATION+%7C+ANALYSIS+%7C+REPORTING" alt="Typing SVG">
-</p>
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/Android-Security-3DDC84?style=for-the-badge&logo=android&logoColor=white">
-  <img src="https://img.shields.io/badge/Linux-Supported-FCC624?style=for-the-badge&logo=linux&logoColor=black">
-  <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge">
-</p>
-
-<p>
-  <strong>🔬 Research</strong> •
-  <strong>🧪 Lab Testing</strong> •
-  <strong>🎯 CTF</strong> •
-  <strong>📊 Security Analysis</strong>
-</p>
-
-</div>
-
----
-
-## 🧭 Overview
-
-**ERROR MASK PRO** is a terminal-based **Android security research toolkit** designed to help security learners and authorized testers organize common security-assessment tasks inside controlled environments.
-
-The project focuses on:
-
-* 🔍 Android application analysis
-* 🧪 Controlled security testing
-* 🛠️ Lab and CTF workflows
-* 📊 Test-result organization
-* 📝 Activity logging
-* 🎨 Professional terminal interface
-* ⚙️ Security-tool workflow automation
-
-> ⚠️ **Important:** Use this project only on applications, devices, emulators, and environments that you own or have explicit permission to test.
-
----
-
-## ✨ Features
-
-| Category          | Capability                              | Status |
-| :---------------- | :-------------------------------------- | :----: |
-| 🤖 Automation     | Security-assessment workflow automation |    ✅   |
-| 📱 Android        | Android application security research   |    ✅   |
-| 🔍 Analysis       | Application/environment inspection      |    ✅   |
-| 🧪 Lab            | Controlled lab & CTF workflows          |    ✅   |
-| 📊 Logging        | Structured activity logging             |    ✅   |
-| 📂 Sessions       | Local research-session management       |    ✅   |
-| 🎨 UI             | Rich terminal interface                 |    ✅   |
-| ⚙️ Configuration  | Local configuration management          |    ✅   |
-| 📄 Reports        | Research-result organization            |   🚧   |
-| 🌐 Cross Platform | Linux / Windows / macOS support         |   🚧   |
-
----
-
-# 🖥️ Interface
+<!-- ========================================================= -->
 
 <div align="center">
 
-### ⚡ Main Dashboard
-
-<img src="https://via.placeholder.com/1000x500/0d1117/00ff88?text=ERROR+MASK+PRO+%7C+MAIN+DASHBOARD" width="90%" alt="Main Dashboard">
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=34&duration=2200&pause=500&color=00FF88&center=true&vCenter=true&width=850&height=80&lines=%3E+ERROR_MASK_PRO_%3C;ANDROID+SECURITY+RESEARCH;PENTESTING+%7C+LAB+%7C+CTF;AUTOMATION+%7C+ANALYSIS+%7C+REPORTING;SYSTEM+INITIALIZED+%E2%9C%93" alt="ERROR MASK PRO">
 
 <br>
 
-<sub>Professional terminal dashboard for controlled Android security research.</sub>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050505,50:003B2B,100:00FF88&height=180&section=header&text=ERROR%20MASK%20PRO&fontSize=45&fontColor=00FF88&animation=fadeIn&fontAlignY=35&desc=Android%20Security%20Research%20Toolkit&descAlignY=60&descSize=18">
+
+<br>
+
+<img src="https://img.shields.io/badge/STATUS-ACTIVE-00ff88?style=for-the-badge&logo=statuspal&logoColor=black">
+<img src="https://img.shields.io/badge/SECURITY-RESEARCH-00ff88?style=for-the-badge&logo=hackthebox&logoColor=black">
+<img src="https://img.shields.io/badge/ANDROID-SECURITY-3DDC84?style=for-the-badge&logo=android&logoColor=white">
+<img src="https://img.shields.io/badge/PYTHON-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white">
+
+<br><br>
+
+<a href="https://github.com/yourusername/error-mask-pro/stargazers">
+<img src="https://img.shields.io/github/stars/yourusername/error-mask-pro?style=for-the-badge&logo=github&label=STARS">
+</a>
+
+<a href="https://github.com/yourusername/error-mask-pro/network/members">
+<img src="https://img.shields.io/github/forks/yourusername/error-mask-pro?style=for-the-badge&logo=github&label=FORKS">
+</a>
+
+<a href="https://github.com/yourusername/error-mask-pro/issues">
+<img src="https://img.shields.io/github/issues/yourusername/error-mask-pro?style=for-the-badge&logo=github&label=ISSUES">
+</a>
+
+<a href="LICENSE">
+<img src="https://img.shields.io/github/license/yourusername/error-mask-pro?style=for-the-badge&label=LICENSE">
+</a>
+
+<br><br>
+
+**🔬 Research • 🧪 Laboratory • 🎯 CTF • 📊 Analysis • 🛡️ Defensive Security**
 
 </div>
 
 ---
 
-# 🎬 Workflow
+# 🟢 SYSTEM STATUS
 
 ```text
-                    ┌─────────────────────┐
-                    │    ERROR MASK PRO   │
-                    └──────────┬──────────┘
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │ Environment Check   │
-                    └──────────┬──────────┘
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │ Research Target     │
-                    │ Authorized Only     │
-                    └──────────┬──────────┘
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │ Security Analysis   │
-                    └──────────┬──────────┘
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │ Test / Lab Workflow │
-                    └──────────┬──────────┘
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │ Logs & Results      │
-                    └──────────┬──────────┘
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │ Research Report     │
-                    └─────────────────────┘
+╔══════════════════════════════════════════════════════════════╗
+║                    ERROR MASK PRO :: CORE                   ║
+╠══════════════════════════════════════════════════════════════╣
+║                                                              ║
+║   [✓] CORE ENGINE             ONLINE                         ║
+║   [✓] ANDROID ANALYZER        READY                          ║
+║   [✓] SESSION MANAGER         READY                          ║
+║   [✓] LOGGING ENGINE          ONLINE                         ║
+║   [✓] REPORTING MODULE        READY                          ║
+║   [✓] TERMINAL UI             ONLINE                         ║
+║                                                              ║
+║   ENVIRONMENT                 AUTHORIZED LAB                 ║
+║   MODE                        SECURITY RESEARCH               ║
+║   STATUS                      OPERATIONAL                     ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
+```
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=1800&pause=400&color=00FF88&center=true&vCenter=true&width=700&lines=%5BBOOT%5D+Loading+Security+Research+Environment...;%5BOK%5D+Environment+Validated;%5BOK%5D+Research+Modules+Loaded;%5BOK%5D+Logging+Engine+Online;%5BREADY%5D+ERROR+MASK+PRO+IS+ONLINE" alt="Boot Animation">
+
+</div>
+
+---
+
+# 🧬 WHAT IS ERROR MASK PRO?
+
+**ERROR MASK PRO** is a terminal-based Android security research toolkit created for **authorized security assessment, controlled laboratory research, defensive analysis, and CTF environments**.
+
+The project brings multiple research-oriented capabilities together under a single terminal interface.
+
+```text
+                     ┌───────────────────────┐
+                     │    ERROR MASK PRO     │
+                     │      CORE ENGINE      │
+                     └───────────┬───────────┘
+                                 │
+             ┌───────────────────┼───────────────────┐
+             │                   │                   │
+             ▼                   ▼                   ▼
+      ┌────────────┐      ┌────────────┐      ┌────────────┐
+      │  ANALYSIS  │      │   LAB      │      │ REPORTING  │
+      └─────┬──────┘      └─────┬──────┘      └─────┬──────┘
+            │                   │                   │
+            └───────────────────┼───────────────────┘
+                                ▼
+                       ┌────────────────┐
+                       │   LOG ENGINE   │
+                       └────────────────┘
 ```
 
 ---
 
-# 🧩 Core Modules
+# ⚡ CORE FEATURES
 
-### 🔍 Android Analysis
+<div align="center">
 
-Designed to assist with controlled analysis of Android applications and test environments.
+| 🧠 MODULE | ⚙️ CAPABILITY                |     STATUS    |
+| :-------: | :--------------------------- | :-----------: |
+|     🔍    | Android Application Analysis |    🟢 Ready   |
+|     🧪    | Controlled Security Testing  |    🟢 Ready   |
+|     📱    | Android Lab Integration      |    🟢 Ready   |
+|     📊    | Research Session Tracking    |    🟢 Ready   |
+|     📝    | Structured Activity Logging  |    🟢 Ready   |
+|     🎨    | Advanced Terminal Interface  |    🟢 Ready   |
+|     📂    | Local Configuration          |    🟢 Ready   |
+|     📄    | Report Generation            | 🟡 Developing |
+|     🧩    | Modular Architecture         | 🟡 Developing |
+|     🌐    | Cross-Platform Support       | 🟡 Developing |
 
-Possible research areas include:
-
-* Application metadata
-* Package information
-* Manifest inspection
-* Permission review
-* Component discovery
-* Configuration review
-* Local security observations
+</div>
 
 ---
 
-### 🧪 Security Lab
+# 🎨 TERMINAL EXPERIENCE
 
-Create an isolated environment for experimentation using:
+<div align="center">
 
-* Android emulators
-* Test devices
-* Intentionally vulnerable applications
+<img src="https://via.placeholder.com/1200x650/050505/00FF88?text=ERROR+MASK+PRO+%7C+TERMINAL+HUD" width="95%" alt="Terminal HUD">
+
+<br>
+
+<sub>Replace this image with a real screenshot or animated GIF from the project.</sub>
+
+</div>
+
+---
+
+# 🖥️ TERMINAL PREVIEW
+
+```text
+┌──────────────────────────────────────────────────────────────┐
+│                                                              │
+│    ███████╗██████╗ ██████╗  ██████╗ ██████╗                │
+│    ██╔════╝██╔══██╗██╔══██╗██╔═══██╗██╔══██╗               │
+│    █████╗  ██████╔╝██████╔╝██║   ██║██████╔╝               │
+│    ██╔══╝  ██╔══██╗██╔══██╗██║   ██║██╔══██╗               │
+│    ███████╗██║  ██║██║  ██║╚██████╔╝██║  ██║               │
+│    ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝               │
+│                                                              │
+│              A N D R O I D   S E C U R I T Y                │
+│                                                              │
+├──────────────────────────────────────────────────────────────┤
+│                                                              │
+│   [01] Application Analysis                                  │
+│   [02] Environment Inspection                                │
+│   [03] Research Sessions                                     │
+│   [04] Activity Logs                                         │
+│   [05] Reports                                               │
+│   [06] Configuration                                         │
+│   [00] Exit                                                  │
+│                                                              │
+├──────────────────────────────────────────────────────────────┤
+│                                                              │
+│   SYSTEM : ONLINE                                            │
+│   MODE   : AUTHORIZED RESEARCH                               │
+│   ENGINE : ERROR MASK CORE                                   │
+│                                                              │
+└──────────────────────────────────────────────────────────────┘
+```
+
+---
+
+# 🔥 FEATURE MATRIX
+
+### 🔍 Android Security Analysis
+
+Designed around controlled analysis of Android applications.
+
+```text
+Application
+     │
+     ├── Metadata
+     ├── Package Information
+     ├── Manifest
+     ├── Permissions
+     ├── Components
+     ├── Configuration
+     └── Security Observations
+```
+
+---
+
+### 🧪 Laboratory Mode
+
+ERROR MASK PRO can be used alongside isolated environments such as:
+
+* Android Emulator
+* Android Studio
+* Dedicated test devices
+* Vulnerable training applications
 * CTF environments
-* Local virtual machines
+* Virtualized research environments
 
-**Never use an unknown or third-party device as a testing target without authorization.**
+> **Always test only targets you own or are explicitly authorized to assess.**
 
 ---
 
-### 📊 Session Management
+### 📊 Session Manager
 
-Research sessions can be organized with information such as:
+Every research workflow can be organized around a session:
 
 ```text
-Session ID
-Timestamp
-Target
-Environment
-Test Category
-Observed Result
-Notes
-Status
+SESSION
+│
+├── ID
+├── Timestamp
+├── Environment
+├── Target
+├── Category
+├── Findings
+├── Notes
+└── Status
 ```
-
-This makes repeated security research easier to document and reproduce.
 
 ---
 
-### 📝 Activity Logging
+### 📝 Logging Engine
 
-A structured logging system can record research activity locally.
-
-Example:
+Structured JSON logging makes research activities easier to review.
 
 ```json
 {
   "session": "research-001",
-  "timestamp": "2026-09-01T14:00:00",
-  "environment": "Android Emulator",
-  "category": "Application Analysis",
-  "status": "completed"
+  "environment": "android-emulator",
+  "category": "application-analysis",
+  "status": "completed",
+  "timestamp": "2026-09-01T14:00:00"
 }
 ```
 
 ---
 
-# 🛠️ Technology Stack
+# 🧠 ARCHITECTURE
+
+```text
+                         ERROR MASK PRO
+                               │
+                 ┌─────────────┴─────────────┐
+                 │                           │
+           PRESENTATION                  CORE ENGINE
+                 │                           │
+       ┌─────────┼─────────┐          ┌──────┼──────┐
+       │         │         │          │      │      │
+     Menu      HUD      Console    Analysis Session Logger
+       │         │         │          │      │      │
+       └─────────┴─────────┘          └──────┼──────┘
+                                             │
+                                      ┌──────┴──────┐
+                                      │             │
+                                  Reporting     Storage
+```
+
+---
+
+# 🧩 MODULE ARCHITECTURE
+
+```text
+error-mask-pro/
+│
+├── core/
+│   ├── engine.py
+│   ├── config.py
+│   └── environment.py
+│
+├── modules/
+│   ├── analyzer.py
+│   ├── session.py
+│   ├── logger.py
+│   └── reporter.py
+│
+├── ui/
+│   ├── banner.py
+│   ├── menu.py
+│   └── console.py
+│
+├── config/
+│   └── config.json
+│
+├── logs/
+│   └── activity.json
+│
+├── reports/
+│   └── .gitkeep
+│
+├── screenshots/
+│   ├── dashboard.png
+│   ├── analyzer.png
+│   └── reports.png
+│
+├── requirements.txt
+├── final_error_mask.py
+├── LICENSE
+└── README.md
+```
+
+---
+
+# 🛠️ TECH STACK
 
 <div align="center">
 
-|    Technology    | Purpose                    |
-| :--------------: | :------------------------- |
-|   🐍 **Python**  | Core application           |
-|  📱 **Android**  | Security research target   |
-|    🎨 **Rich**   | Terminal UI                |
-| 🖼️ **PyFiglet** | ASCII branding             |
-|  🌈 **Colorama** | Terminal colors            |
-|    📊 **JSON**   | Local configuration & logs |
+<img src="https://skillicons.dev/icons?i=python,android,linux,git,github,vscode&theme=dark" alt="Tech Stack">
+
+<br><br>
+
+| Technology   | Role                 |
+| :----------- | :------------------- |
+| 🐍 Python    | Core Engine          |
+| 📱 Android   | Research Environment |
+| 🎨 Rich      | Terminal UI          |
+| 🖼️ PyFiglet | ASCII Branding       |
+| 🌈 Colorama  | Terminal Styling     |
+| 📦 JSON      | Local Data           |
+| 🔧 Git       | Version Control      |
 
 </div>
 
 ---
 
-# 📋 Requirements
+# 🚀 INSTALLATION
 
-Before running the project, make sure you have:
-
-* Python **3.8 or newer**
-* Git
-* A controlled Android testing environment
-* Android Emulator or authorized test device
-* Internet connection for installing Python dependencies
-
-### Recommended Environment
-
-```text
-Operating System
-├── Linux
-├── Windows
-└── macOS
-
-Testing Environment
-├── Android Emulator
-├── Android Studio
-└── Authorized Test Device
-```
-
----
-
-# 📥 Installation
-
-## 1️⃣ Clone Repository
+## 01 — Clone
 
 ```bash
 git clone https://github.com/yourusername/error-mask-pro.git
 ```
 
-## 2️⃣ Enter Project
+## 02 — Enter
 
 ```bash
 cd error-mask-pro
 ```
 
-## 3️⃣ Create Virtual Environment
+## 03 — Virtual Environment
 
 ### Linux / macOS
 
@@ -260,13 +361,13 @@ python -m venv .venv
 .venv\Scripts\activate
 ```
 
-## 4️⃣ Install Dependencies
+## 04 — Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## 5️⃣ Start
+## 05 — Launch
 
 ```bash
 python3 final_error_mask.py
@@ -274,317 +375,350 @@ python3 final_error_mask.py
 
 ---
 
-# 🧪 Recommended Lab Setup
-
-For safe experimentation, use an isolated environment:
+# 🎯 QUICK START
 
 ```text
-┌─────────────────────────────┐
-│       Your Computer         │
-│                             │
-│  ┌───────────────────────┐  │
-│  │ Android Emulator      │  │
-│  │                       │  │
-│  │ • Test Applications   │  │
-│  │ • CTF Apps            │  │
-│  │ • Dummy Data          │  │
-│  └───────────────────────┘  │
-│                             │
-│        ▲                    │
-│        │                    │
-│        ▼                    │
-│  ERROR MASK PRO             │
-│  Security Research Toolkit │
-└─────────────────────────────┘
-```
-
-### Recommended Test Targets
-
-✅ Your own application
-✅ Intentionally vulnerable applications
-✅ Android emulator
-✅ CTF challenge environment
-✅ Dedicated security laboratory
-
-❌ Random phones
-❌ Other people's applications without permission
-❌ Production systems
-❌ Devices you do not control
-
----
-
-# ⚙️ Configuration
-
-Project configuration can be maintained separately from the source code.
-
-Example:
-
-```json
-{
-  "project": "ERROR MASK PRO",
-  "environment": "Android Lab",
-  "logging": true,
-  "session_tracking": true,
-  "reporting": true
-}
+┌─────────────────────────────────────────────┐
+│              QUICK START                    │
+├─────────────────────────────────────────────┤
+│                                             │
+│  01. Prepare authorized lab                │
+│  02. Start Android emulator                │
+│  03. Launch ERROR MASK PRO                 │
+│  04. Select analysis module                │
+│  05. Select test application                │
+│  06. Perform authorized research            │
+│  07. Review findings                        │
+│  08. Generate research report              │
+│                                             │
+└─────────────────────────────────────────────┘
 ```
 
 ---
 
-# 📂 Project Structure
+# 🧪 SAFE TEST ENVIRONMENT
 
 ```text
-error-mask-pro/
-│
-├── final_error_mask.py
-├── requirements.txt
-├── README.md
-├── LICENSE
-│
-├── modules/
-│   ├── analyzer.py
-│   ├── logger.py
-│   ├── session.py
-│   └── reporter.py
-│
-├── reports/
-│   └── .gitkeep
-│
-├── logs/
-│   └── .gitkeep
-│
-├── config/
-│   └── config.json
-│
-└── screenshots/
-    ├── dashboard.png
-    ├── analysis.png
-    └── reports.png
+                 YOUR COMPUTER
+                       │
+                       ▼
+              ┌─────────────────┐
+              │ ERROR MASK PRO  │
+              └────────┬────────┘
+                       │
+                       ▼
+              ┌─────────────────┐
+              │ ANDROID EMULATOR│
+              └────────┬────────┘
+                       │
+              ┌────────┴────────┐
+              │                 │
+              ▼                 ▼
+        TEST APPLICATION    CTF APPLICATION
+              │                 │
+              └────────┬────────┘
+                       ▼
+                 FINDINGS
+                       │
+                       ▼
+                  REPORT
 ```
 
 ---
 
-# 📸 Screenshots
-
-> Replace the following placeholders with real screenshots from your project.
+# 🖼️ SCREENSHOT GALLERY
 
 <div align="center">
 
-### 🖥️ Dashboard
+### ⚡ Main Dashboard
 
-<img src="screenshots/dashboard.png" width="90%" alt="Dashboard">
+<img src="screenshots/dashboard.png" width="92%" alt="Main Dashboard">
 
-<br><br>
+---
 
-### 🔍 Android Analysis
+### 🔍 Application Analyzer
 
-<img src="screenshots/analysis.png" width="90%" alt="Android Analysis">
+<img src="screenshots/analyzer.png" width="92%" alt="Application Analyzer">
 
-<br><br>
+---
 
-### 📊 Research Report
+### 📊 Research Reports
 
-<img src="screenshots/reports.png" width="90%" alt="Research Report">
+<img src="screenshots/reports.png" width="92%" alt="Research Reports">
 
 </div>
 
 ---
 
-# 🧠 Research Workflow
+# 🎬 ANIMATED DEMO
+
+> Add a real project GIF here.
 
 ```text
-        START
-          │
-          ▼
-   ┌───────────────┐
-   │ Select Lab    │
-   │ Environment   │
-   └───────┬───────┘
-           │
-           ▼
-   ┌───────────────┐
-   │ Select Test   │
-   │ Application   │
-   └───────┬───────┘
-           │
-           ▼
-   ┌───────────────┐
-   │ Analyze       │
-   │ Configuration │
-   └───────┬───────┘
-           │
-           ▼
-   ┌───────────────┐
-   │ Perform       │
-   │ Authorized    │
-   │ Tests         │
-   └───────┬───────┘
-           │
-           ▼
-   ┌───────────────┐
-   │ Record        │
-   │ Findings      │
-   └───────┬───────┘
-           │
-           ▼
-   ┌───────────────┐
-   │ Generate      │
-   │ Report        │
-   └───────┬───────┘
-           │
-           ▼
-         DONE
+screenshots/
+└── demo.gif
+```
+
+Then replace this section with:
+
+```html
+<p align="center">
+  <img src="screenshots/demo.gif" width="95%" alt="ERROR MASK PRO Demo">
+</p>
 ```
 
 ---
 
-# 🗺️ Roadmap
+# 🛰️ SYSTEM PIPELINE
 
-### Version 1.x
+```text
+        ┌──────────┐
+        │   INIT   │
+        └────┬─────┘
+             │
+             ▼
+      ┌──────────────┐
+      │ ENVIRONMENT  │
+      │    CHECK     │
+      └──────┬───────┘
+             │
+             ▼
+      ┌──────────────┐
+      │    TARGET    │
+      │ VALIDATION   │
+      └──────┬───────┘
+             │
+             ▼
+      ┌──────────────┐
+      │   ANALYSIS   │
+      └──────┬───────┘
+             │
+             ▼
+      ┌──────────────┐
+      │   FINDINGS   │
+      └──────┬───────┘
+             │
+             ▼
+      ┌──────────────┐
+      │    LOGGING   │
+      └──────┬───────┘
+             │
+             ▼
+      ┌──────────────┐
+      │   REPORTING  │
+      └──────┬───────┘
+             │
+             ▼
+        ┌──────────┐
+        │   DONE   │
+        └──────────┘
+```
 
-* [x] Terminal interface
-* [x] Session management
-* [x] Local logging
+---
+
+# 📡 PROJECT METRICS
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=yourusername&repo=error-mask-pro&theme=dark&hide_border=true&bg_color=050505&title_color=00ff88&icon_color=00ff88&text_color=ffffff" width="48%">
+
+<img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=dark&hide_border=true&bg_color=050505&title_color=00ff88&icon_color=00ff88&text_color=ffffff" width="48%">
+
+</div>
+
+---
+
+# 🏆 PROJECT STATUS
+
+```text
+╭──────────────────────────────────────────────╮
+│             DEVELOPMENT STATUS               │
+├──────────────────────────────────────────────┤
+│                                              │
+│ Core Engine              ██████████  100%    │
+│ Terminal UI              █████████░   90%    │
+│ Session Manager          ████████░░   80%    │
+│ Logging                  ██████████  100%    │
+│ Android Analysis         ███████░░░   70%    │
+│ Reporting                ██████░░░░   60%    │
+│ Plugin System            ████░░░░░░   40%    │
+│                                              │
+╰──────────────────────────────────────────────╯
+```
+
+---
+
+# 🗺️ ROADMAP
+
+## `v1.x` — Foundation
+
+* [x] Core terminal interface
 * [x] Configuration system
+* [x] Local logging
+* [x] Session management
 * [x] Basic Android research workflow
 
-### Version 2.x
+## `v2.x` — Intelligence
 
-* [ ] Improved Android analyzer
-* [ ] Automated report generation
-* [ ] HTML reports
-* [ ] PDF reports
-* [ ] Better error handling
-* [ ] Plugin architecture
-* [ ] Advanced lab management
+* [ ] Advanced application analysis
+* [ ] Automated research reports
+* [ ] HTML reporting
+* [ ] PDF reporting
+* [ ] Better diagnostics
+* [ ] Modular plugins
 
-### Future
+## `v3.x` — Platform
 
 * [ ] Web dashboard
-* [ ] Visualization system
-* [ ] Research database
+* [ ] Research visualization
+* [ ] Centralized project database
 * [ ] Team collaboration
-* [ ] Automated compliance reports
+* [ ] Advanced reporting
+* [ ] Plugin marketplace
 
 ---
 
-# 🔐 Security Philosophy
+# 🔐 SECURITY MODEL
 
-ERROR MASK PRO follows a simple principle:
+ERROR MASK PRO is designed around **authorized security research**.
 
-> **Learn security by testing safely.**
+```text
+             ┌─────────────────────┐
+             │      AUTHORIZED     │
+             │      ENVIRONMENT    │
+             └──────────┬──────────┘
+                        │
+            ┌───────────┼───────────┐
+            ▼           ▼           ▼
+         RESEARCH      CTF         LAB
+            │           │           │
+            └───────────┼───────────┘
+                        ▼
+                 SECURITY LEARNING
+```
 
-The project is intended to encourage:
+### Recommended Targets
 
-* Responsible disclosure
-* Authorized penetration testing
-* Security education
-* CTF participation
-* Isolated experimentation
-* Defensive security research
+* Your own application
+* Your own Android emulator
+* Dedicated test devices
+* Intentionally vulnerable applications
+* CTF challenges
+* Authorized penetration-testing environments
 
 ---
 
-# ⚠️ Legal & Ethical Notice
+# ⚠️ ETHICAL NOTICE
 
-This project is provided for **educational purposes, authorized security testing, defensive research, and controlled laboratory environments**.
+This project is intended for:
 
-You are responsible for ensuring that you have appropriate authorization before testing any application, system, emulator, or device.
+> **Educational research • Authorized penetration testing • Defensive security • CTF • Controlled laboratory environments**
 
-The developers do not encourage:
+Do not use ERROR MASK PRO against systems, applications, accounts, or devices without appropriate authorization.
+
+The project does **not** encourage:
 
 * Unauthorized access
 * Privacy violations
-* Data theft
 * Credential theft
+* Data theft
 * Malware deployment
-* Destructive activity
+* Destructive actions
+* Circumvention of security controls
 * Testing third-party devices without permission
 
-**Use responsibly.**
+**The operator is responsible for complying with applicable laws and obtaining authorization.**
 
 ---
 
-# 🤝 Contributing
+# 🧑‍💻 DEVELOPMENT
 
-Contributions are welcome.
-
-### Fork
+### Clone
 
 ```bash
-git checkout -b feature/your-feature
+git clone https://github.com/yourusername/error-mask-pro.git
+cd error-mask-pro
 ```
 
-### Make Changes
+### Create Branch
+
+```bash
+git checkout -b feature/new-module
+```
+
+### Develop
+
+```bash
+python3 final_error_mask.py
+```
+
+### Commit
 
 ```bash
 git add .
-git commit -m "Add your feature"
+git commit -m "Add new security research module"
 ```
 
 ### Push
 
 ```bash
-git push origin feature/your-feature
+git push origin feature/new-module
 ```
 
-Then open a **Pull Request**.
+Then open a Pull Request.
 
 ---
 
-# 🐛 Issues & Feature Requests
+# 🐛 BUG REPORT
 
-Found a bug or have an idea?
-
-Open a GitHub Issue with:
+When reporting a bug, include:
 
 ```text
-Title
-Environment
-Python Version
-Operating System
-Steps to Reproduce
-Expected Result
-Actual Result
-Screenshots
-Logs
+Operating System:
+Python Version:
+Project Version:
+Android Version:
+Environment:
+Steps To Reproduce:
+Expected Result:
+Actual Result:
+Relevant Logs:
+Screenshots:
 ```
 
-Please remove sensitive information before posting logs.
+Remove secrets, tokens, private information, and sensitive target information before submitting logs.
 
 ---
 
-# ⭐ Support the Project
+# 💡 FEATURE REQUEST
 
-If this project helps you learn Android security research:
+Have an idea?
 
-<div align="center">
+Open an issue with:
 
-### ⭐ Star the repository
-
-### 🍴 Fork it
-
-### 🐛 Report bugs
-
-### 💡 Suggest improvements
-
-### 🤝 Contribute
-
-</div>
+```text
+TITLE
+│
+├── Problem
+├── Proposed Solution
+├── Expected Behaviour
+├── Technical Approach
+└── Additional Context
+```
 
 ---
 
-# 📜 License
+# 📜 LICENSE
 
-This project is distributed under the **MIT License**.
+Distributed under the **MIT License**.
 
-See [`LICENSE`](LICENSE) for details.
+See [`LICENSE`](LICENSE) for the complete license text.
 
 ---
 
-# 🙏 Acknowledgments
+# 🙏 ACKNOWLEDGMENTS
 
-This project is inspired by the broader cybersecurity research community and the many open-source tools that make security education accessible.
+Built with inspiration from the global cybersecurity and open-source community.
 
 Special thanks to:
 
@@ -593,25 +727,37 @@ Special thanks to:
 * CTF communities
 * Penetration-testing researchers
 * Defensive security professionals
+* Security educators
 
 ---
 
+# 🌌 FINAL SYSTEM MESSAGE
+
 <div align="center">
 
-## 🛡️ ERROR MASK PRO
-
-### Security Research • Education • Responsible Testing
-
-<br>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3000&pause=1000&color=00FF88&center=true&vCenter=true&width=600&lines=LEARN+SECURITY;TEST+RESPONSIBLY;BUILD+SAFELY;STAY+ETHICAL" alt="Footer Animation">
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2500&pause=800&color=00FF88&center=true&vCenter=true&width=700&lines=%3E+ACCESS+GRANTED...;%3E+RESEARCH+MODE+ACTIVE...;%3E+ANALYZE.+LEARN.+DEFEND.;%3E+STAY+ETHICAL.+STAY+LEGAL." alt="Final Animation">
 
 <br><br>
 
-**Made with 💻 + 🧠 for the cybersecurity community**
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FF88,50:003B2B,100:050505&height=150&section=footer&animation=twinkling">
+
+### 🛡️ ERROR MASK PRO
+
+**ANDROID SECURITY RESEARCH TOOLKIT**
 
 <br>
 
-`Stay Ethical • Stay Legal • Stay Safe`
+`RESEARCH` • `ANALYZE` • `LEARN` • `DEFEND`
+
+<br>
+
+**Made with 💻 🧠 ❤️ for the cybersecurity community**
+
+<br>
+
+⭐ **Star the repository if you find it useful.**
 
 </div>
+<!-- ========================================================= -->
+<!--                    END OF README                           -->
+<!-- ========================================================= -->
