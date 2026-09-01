@@ -1,6 +1,4 @@
 
-
-```markdown
 <div align="center">
 
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&duration=3000&pause=500&color=00FF66&center=true&vCenter=true&width=650&lines=ERROR+MASK+PRO;Android+Pentesting+Toolkit;Fully+Automated+%26+Advanced+Red-Ops" alt="Typing SVG" />
