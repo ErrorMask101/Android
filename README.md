@@ -256,7 +256,7 @@ Ensure your environment satisfies the baseline requirements before initializing:
 
 ### Step 1: Clone the Repository
 ```bash
-git clone [https://github.com/ErrorMask101/Android.git](https://github.com/ErrorMask101/Android.git)
+git clone https://github.com/ErrorMask101/Android.git
 cd Android
 
 ```
